@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Quiz</title>
+    </head>
+<body>
+<!--TITLE-->          
+    <form name="quiz" id="quiz">
+        <div class="Container">
+            <h1>Quiz App</h1>
+<!--QUESTION 1-->
+            <div class="Questions">
+                <label class="lbl" name="Question_1"> 1)Solve for x</label><br>
+                <p class="Q1">20 - 7x = 6x - 6</p>
+                <p class="QC"><input type="radio"  name="Question_1"  value="A">x = 0<br></p> 
+                <p class="QC"><input type="radio"  name="Question_1"  value="B">x = 2<br></p> 
+                <p class="QC"><input type="radio"  name="Question_1"  value="C">x = ±2<br></p>
+                <p class="QC"><input type="radio"  name="Question_1"  value="D">x = -2<br></p>
+            </div>
+            <br>
+<!--QUESTION 2-->
+            <div class="Questions">
+                <label class="lbl" name="Question_2"> 2)Factor and solve for x</label><br>
+                <p class="Q2">y = x<sup>2</sup> + 2x - 15</p>
+                <p class="QC"><input type="radio"  name="Question_2"  value="A">x = -3, 5<br></p> 
+                <p class="QC"><input type="radio"  name="Question_2"  value="B">x = ±3<br></p> 
+                <p class="QC"><input type="radio"  name="Question_2"  value="C">x = ±5<br></p>
+                <p class="QC"><input type="radio"  name="Question_2"  value="D">x = -5, 3<br></p>
+            </div>
+            <br>
+<!--QUESTION 3-->
+            <div class="Questions">
+                <label class="lbl" name="Question_3"> 3)Find the derivative:</label><br>
+                <p class="Q3">x<sup>3</sup> - 4x<sup>2</sup> + 2x + 9</p>
+                <p class="QC"><input type="radio"  name="Question_3"  value="A">dy/dx = 3x<sup>2</sup> - 8x+ 2<br></p> 
+                <p class="QC"><input type="radio"  name="Question_3"  value="B">dy/dx = x - 4 + 2 + 9<br></p> 
+                <p class="QC"><input type="radio"  name="Question_3"  value="C">dy = dx - x<br></p>
+                <p class="QC"><input type="radio"  name="Question_3"  value="D">dy/dx = x<sup>4</sup> - 4x<sup>3</sup>+ 2x<sup>2</sup> + 9x<br></p> 
+            </div>
+            <br>
+<!--QUESTION 4-->
+            <div class="Questions">
+                <label class="lbl" name="Question_4"> 4)Find the Anti-derivative:</label><br>
+                <p class="Q4">∫3(3x - 1)<sup>4</sup>dx</p>
+                <p class="QC"><input type="radio"  name="Question_4"  value="A">f(x) dx = (3x - 1)/5<br></p> 
+                <p class="QC"><input type="radio"  name="Question_4"  value="B">f(x) dx = x<sup>2</sup>(5x-3)/x<sup>2</sup> + C<br></p> 
+                <p class="QC"><input type="radio"  name="Question_4"  value="C">f(x) dx = (3x - 1)<sup>5</sup>/5 + C<br></p>
+                <p class="QC"><input type="radio"  name="Question_4"  value="D">f(x) dx = DNE<br></p>
+            </div>
+            <br>
+<!--QUESTION 5-->
+            <div class="Questions">
+                <label class="lbl" name="Question_5"> 5)Find the Anti-derivative:</label><br>
+                <p class="Q5">∫7x²(x³+1)<sup>1/2</sup>dx</p>
+                <p class="QC"><input type="radio"  name="Question_5"  value="A">f(x) dx = -14x (3x<sup>2</sup>)<sup>-1/2</sup> + C<br></p> 
+                <p class="QC"><input type="radio"  name="Question_5"  value="B">f(x) dx = 14/9 (x<sup>3</sup> + 1)<sup>3/2</sup> + C<br> </p> 
+                <p class="QC"><input type="radio"  name="Question_5"  value="C">f(x) dx = 9/14 (x<sup>3</sup> + 1)<sup>3/2</sup> + C<br></p>
+                <p class="QC"><input type="radio"  name="Question_5"  value="D">f(x) dx = -9x (3x<sup>2</sup>)<sup>-1/2</sup> + C<br></p> 
+            </div>
+            <br><br<br><br>
+<!--SUBMIT--> 
+            <input type="button" class="ButtonS" value="Submit" onclick="Check()">
+            <input type="reset" class="ButtonR">
+               
+        </div>
+    </form>
+</body>
+</html>

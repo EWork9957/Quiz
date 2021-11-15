@@ -1,0 +1,49 @@
+/*HEADER*/
+.Container h1{
+    text-align: center;
+}
+
+/*OVERALL*/
+.Container{
+    border: solid 15px rgb(43, 55, 228);
+    width: 60%;
+    margin: auto;
+    background-color: rgba(63, 66, 252, 0.527);
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+/*QUESTIONS*/
+.Questions{
+    border: solid 5px rgb(44, 56, 231);
+    background-color: rgb(115, 103, 224);
+    width: 90%;
+    margin: auto;
+    color: black;
+    padding-left: 10px;
+    border-radius: 100px;
+    height: auto;
+}
+.Questions label{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 40px;
+    padding-top: 60px;
+}
+.Q1, .Q2, .Q3, .Q4, .Q5{
+    margin-left: 120px;
+    margin-top: -1px;
+    font-size: 20px;
+}
+.QC{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 110px;
+}
+
+/*BUTTON*/
+.ButtonS{
+    margin-left: 330px;
+}
